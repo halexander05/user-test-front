@@ -1,7 +1,7 @@
 {
   "formularios": {
     "inicio_sesion": {
-      "titulo": "Incio de sesión",
+      "titulo": "Inicio de sesión",
       "correo": "Correo electrónico",
       "texto_correo": "Ingresar correo eletrónico",
       "clave": "Contraseña",
