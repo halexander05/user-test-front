@@ -1,0 +1,19 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span
+      >Es
+      <mat-slide-toggle [checked]="lang" (change)="changeLanguage($event)"
+        >En</mat-slide-toggle
+      >
+    </span>
+    <span class="example-spacer"></span>
+    <button
+      type="button"
+      mat-raised-button
+      (click)="logout()"
+      *ngIf="isAuthenticated()"
+    >
+      {{ "boton_cerrar_sesion.texto" | translate }}
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>

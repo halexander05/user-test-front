@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col col-lg-10 offset-lg-1" *ngIf="!isAuthenticated()">
+    <mat-card>
+      <div class="row">
+        <div class="col text-center">
+          <h1 class="title">{{ "home.titulo" | translate }}</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-lg-6 text-center">
+            <a routerLink="/register"  mat-raised-button>{{ "home.registrar_boton" | translate }}</a>
+        </div>
+        <div class="col col-lg-6 text-center">
+            <a routerLink="/login"  mat-raised-button>{{ "home.inicio_sesion_boton" | translate }}</a>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+  <div class="col col-lg-10 offset-lg-1" *ngIf="isAuthenticated()">
+      <div class="row">
+          <div class="col text-center">
+            <a routerLink="/users"  mat-raised-button>{{ "home.usuario_boton" | translate }}</a>
+          </div>
+      </div>
+  </div>
+</div>

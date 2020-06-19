@@ -1,0 +1,41 @@
+{
+  "formularios": {
+    "inicio_sesion": {
+      "titulo": "Login",
+      "correo": "Email",
+      "texto_correo": "Add a email",
+      "clave": "Password",
+      "texto_clave": "Add a password",
+      "boton": "Login",
+      "enlace": "Register"
+    },
+    "registrar": {
+      "titulo": "Register",
+      "correo": "Email",
+      "texto_correo": "Add a email",
+      "clave": "Password",
+      "texto_clave": "Add a password",
+      "nombre_usuario": "Username",
+      "texto_nombre_usuario": "Add a username",
+      "boton": "Register",
+      "enlace": "Login"
+    }
+  },
+
+  "usuarios": {
+    "titulo": "User data",
+    "correo": "Email",
+    "nombre_usuario": "Username"
+  },
+
+  "boton_cerrar_sesion": {
+    "texto": "Logout"
+  },
+
+  "home": {
+    "titulo": "Wellcome",
+    "inicio_sesion_boton": "Login",
+    "registrar_boton": "Register",
+    "usuario_boton": "Users"
+  }
+}

@@ -1,0 +1,78 @@
+<div class="row">
+  <div class="col col-lg-7 offset-lg-3">
+    <mat-card>
+      <div class="row">
+        <div class="col">
+          <h1>{{ "formularios.inicio_sesion.titulo" | translate }}</h1>
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <div class="form-container">
+            <form
+              class="example-form"
+              [formGroup]="loginForm"
+              (ngSubmit)="onSubmit()"
+            >
+              <div class="row">
+                <div class="col">
+                  <mat-form-field class="input-full-width">
+                    <mat-label>{{
+                      "formularios.inicio_sesion.correo" | translate
+                    }}</mat-label>
+                    <input
+                      matInput
+                      placeholder="{{
+                        'formularios.inicio_sesion.texto_correo' | translate
+                      }}"
+                      formControlName="email"
+                    />
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <mat-form-field class="input-full-width">
+                    <mat-label>{{
+                      "formularios.inicio_sesion.clave" | translate
+                    }}</mat-label>
+                    <input
+                      matInput
+                      type="password"
+                      placeholder="{{
+                        'formularios.inicio_sesion.texto_clave' | translate
+                      }}"
+                      formControlName="password"
+                    />
+                  </mat-form-field>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col text-center">
+                  <div class="submit-button">
+                    <button
+                      type="submit"
+                      mat-raised-button
+                      color="primary"
+                      [disabled]="!loginForm.valid"
+                    >
+                      {{ "formularios.inicio_sesion.boton" | translate }}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <div class="row">
+              <div class="col">
+                <a routerLink="/register">{{
+                  "formularios.inicio_sesion.enlace" | translate
+                }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+{
+  "formularios": {
+    "inicio_sesion": {
+      "titulo": "Incio de sesión",
+      "correo": "Correo electrónico",
+      "texto_correo": "Ingresar correo eletrónico",
+      "clave": "Contraseña",
+      "texto_clave": "Ingresar contraseña",
+      "boton": "Iniciar sesión",
+      "enlace": "Registrar"
+    },
+    "registrar": {
+      "titulo": "Registrar",
+      "correo": "Correo electrónico",
+      "texto_correo": "Ingresar correo eletrónico",
+      "clave": "Contraseña",
+      "texto_clave": "Ingresar contraseña",
+      "nombre_usuario": "Nombre de usuario",
+      "texto_nombre_usuario": "Ingresar nombre de usuario",
+      "boton": "Registrar",
+      "enlace": "Iniciar sesión"
+    }
+  },
+
+  "usuarios": {
+    "titulo": "Datos del usuario",
+    "correo": "Correo electrónico",
+    "nombre_usuario": "Nombre de usuario"
+  },
+
+  "boton_cerrar_sesion": {
+    "texto": "Cerrar sesión"
+  },
+
+  "home": {
+    "titulo": "Bienvenido",
+    "inicio_sesion_boton": "Iniciar sesión",
+    "registrar_boton": "Registrar",
+    "usuario_boton": "Usuarios"
+  }
+}
